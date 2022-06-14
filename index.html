@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Random Agent Selector</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">	
+		
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Valorant Agent Selector</h1>
+		</header>
+	
+
+	<section class="row">
+		<section class="column">
+			<ul>
+				<li id= "brimstone" class= "controller agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286797/Valorant%20Agent%20Selector/326_pgf3bk.png" alt="Brimstone"></li>
+				<li id= "phoenix" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286812/Valorant%20Agent%20Selector/326_vfbugs.png" alt="Phoenix"></li>
+				<li id= "sage" class="sentinel agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286823/Valorant%20Agent%20Selector/326_o7yqbt.png" alt="Sage"></li>
+				<li id= "sova" class="initiator agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286836/Valorant%20Agent%20Selector/326_x4sbwp.png" alt=" sova"></li>
+				<li id= "viper" class="controller agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286848/Valorant%20Agent%20Selector/326_okcipe.png" alt=" viper"></li>
+				<li id= "cypher" class="sentinel agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286861/Valorant%20Agent%20Selector/326_pakix1.png" alt="Cypher"></li>
+				<li id= "reyna" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286876/Valorant%20Agent%20Selector/326_a2c7bt.png" alt="Reyna"></li>
+				<li id= "killjoy" class="sentinel agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286891/Valorant%20Agent%20Selector/220_q4umzx.png" alt="Killjoy"></li>
+				<li id= "breach" class="initiator agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286908/Valorant%20Agent%20Selector/326_xtbnqy.png" alt="Breach"></li>
+				<li id= "omen" class="Controller agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286929/Valorant%20Agent%20Selector/326_r8lq92.png" alt="Omen"></li>
+				<li id= "jett" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286961/Valorant%20Agent%20Selector/326_vzaxev.png" alt="Jett"></li>
+				<li id= "raze" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286976/Valorant%20Agent%20Selector/326_vrvlyd.png" alt="Raze"></li>
+				<li id= "skye" class="initiator agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647286997/Valorant%20Agent%20Selector/326_g0d93n.png" alt="Skye"></li>
+				<li id= "yoru" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287040/Valorant%20Agent%20Selector/326_aqnwpm.png" alt="Yoru"></li>
+				<li id= "astra" class="Controller agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287061/Valorant%20Agent%20Selector/326_rbxqr1.png" alt="Astra"></li>
+				<li id= "kayo" class="initiator agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287083/Valorant%20Agent%20Selector/326_fuz2yl.png" alt="Kay/o"></li>
+				<li id= "chamber" class="sentinel agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287117/Valorant%20Agent%20Selector/326_fcokb9.png" alt="Chamber"></li>
+				<li id= "neon" class="duelist agent hidden"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287147/Valorant%20Agent%20Selector/326_jk0x0k.png" alt="Neon"></li>
+			</ul>
+		</section>
+			<!---these are filters-->
+		<section class="column">
+
+			<h2>I want to play a ...</h2>
+				<!-- <ol>
+					<li id="wantAnEntry">Duelist</li>
+					<li id="whereDoISmoke">Controller</li>
+					<li id="doggyStyle">Initiator</li>
+					<li id="allHereHelp">Sentinel</li>
+					<li id="nofilter"> Remove Filters </li>
+					<li> <button>Agent Selection</button> </li>
+				</ol> -->
+				<form class="boxes">
+					<ol>
+						<li>
+							<label for="duelistCbc">
+								<input id="duelistCbc" type="checkbox" name="filter" ><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287245/Valorant%20Agent%20Selector/463_syeng0.png" alt="Duelist" width="100" height="100">
+							</label>
+						</li>
+
+						<li>
+							<label for="controllerCbc">
+								<input id="controllerCbc" type="checkbox" name="filter"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287319/Valorant%20Agent%20Selector/462_qlbbat.png" alt="Controller" width="100" height="100">
+							</label>
+						</li>
+
+						<li>
+							<label for="initiatorCbc">
+								<input id="initiatorCbc" type="checkbox" name="filter"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287360/Valorant%20Agent%20Selector/462_oltvyp.png" alt="Initiator" width="100" height="100">
+							</label>
+						</li>
+
+						<li>
+							<label for="sentinelCbc">
+								<input id="sentinelCbc" type="checkbox" name="filter"><img src="https://res.cloudinary.com/dyqe6vjxj/image/upload/v1647287402/Valorant%20Agent%20Selector/463_nfoffa.png" alt="Sentinel" width="100" height="100">
+							</label>
+
+						<li>
+							<button id="choose" type="button"> Choose My Agent </button>
+							
+						</li>
+						
+
+					</ol>
+				</form>
+				
+		</section>
+	</section>
+	
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
